@@ -1,0 +1,83 @@
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  background: var(--blue);
+  padding: 80px 0;
+  height:100%;
+}
+
+.container img {
+  width: 45%;
+}
+
+.container > div {
+  display: flex;
+  flex-direction: column;
+  margin: 9rem 10rem 8rem 0;
+}
+
+.container > div > img {
+  margin-bottom: 100px;
+  margin-right: 200px;
+}
+
+.container > div > strong {
+  font-size: 2rem;
+  color: var(--white);
+  margin-bottom: 25px;
+}
+
+.container > div > p {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  line-height: 1.7;
+  margin-bottom: 25px;
+  color: var(--gray-line);
+  width: 70%;
+}
+
+.container > div > p > .githubIcon {
+  font-size: 4rem;
+  margin-right: 1rem;
+}
+
+.container > div > div {
+  height: 4rem;
+  background: var(--blue-dark);
+  border-radius: 5px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.container > div > div input {
+  font-size: 22px;
+  margin-left: 1.6rem;
+  background: transparent;
+  color: var(--white);
+  border-color: transparent;
+  outline: none;
+  width: 100%;
+}
+
+.container > div > div > button {
+  height: 100%;
+  width: 5.5rem;
+  border-radius: 5px;
+  border-color: transparent;
+  outline: none;
+  background: var(--blue-dark);
+  color: var(--white);
+
+  transition: background-color 0.3s;
+}
+
+.container > div > div > button:hover {
+  background: var(--green);
+}
+
+.container > div > div > button .arrowIcon {
+  font-size: 1.7rem;
+}
